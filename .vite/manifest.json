@@ -1,0 +1,121 @@
+{
+  "../../../../@crx/manifest": {
+    "file": "assets/crx-manifest.js-DGbZmaC5.js",
+    "name": "crx-manifest.js",
+    "src": "../../../../@crx/manifest",
+    "isEntry": true
+  },
+  "_SidePanel-!~{006}~.js": {
+    "file": "assets/SidePanel-Ca9RFu5H.css",
+    "src": "_SidePanel-!~{006}~.js"
+  },
+  "_SidePanel-CbFyhysd.js": {
+    "file": "assets/SidePanel-CbFyhysd.js",
+    "name": "SidePanel",
+    "imports": [
+      "_theme-Bhuk4arA.js",
+      "_hooks.module-CH7s8bBr.js",
+      "_defaultPatterns-Bz2aUK3s.js"
+    ],
+    "css": [
+      "assets/SidePanel-Ca9RFu5H.css"
+    ]
+  },
+  "_defaultPatterns-Bz2aUK3s.js": {
+    "file": "assets/defaultPatterns-Bz2aUK3s.js",
+    "name": "defaultPatterns"
+  },
+  "_hooks.module-CH7s8bBr.js": {
+    "file": "assets/hooks.module-CH7s8bBr.js",
+    "name": "hooks.module",
+    "imports": [
+      "_theme-Bhuk4arA.js"
+    ]
+  },
+  "_theme-Bhuk4arA.js": {
+    "file": "assets/theme-Bhuk4arA.js",
+    "name": "theme"
+  },
+  "src/background/index.ts": {
+    "file": "assets/index.ts-BH8FyYjt.js",
+    "name": "index.ts",
+    "src": "src/background/index.ts",
+    "isEntry": true,
+    "imports": [
+      "_defaultPatterns-Bz2aUK3s.js"
+    ]
+  },
+  "src/content/index.ts": {
+    "file": "assets/index.ts-F88QIOcL.js",
+    "name": "index.ts",
+    "src": "src/content/index.ts",
+    "isEntry": true
+  },
+  "src/content/injected.ts": {
+    "file": "assets/injected.ts-BeEFYnVy.js",
+    "name": "injected.ts",
+    "src": "src/content/injected.ts",
+    "isEntry": true
+  },
+  "src/popup/index.html": {
+    "file": "assets/index.html-lvoArHnC.js",
+    "name": "index.html",
+    "src": "src/popup/index.html",
+    "isEntry": true,
+    "imports": [
+      "_theme-Bhuk4arA.js",
+      "_hooks.module-CH7s8bBr.js"
+    ],
+    "css": [
+      "assets/index-D2LI-8HJ.css"
+    ]
+  },
+  "src/sidepanel/index.html": {
+    "file": "assets/index.html-BCni-V4v.js",
+    "name": "index.html",
+    "src": "src/sidepanel/index.html",
+    "isEntry": true,
+    "imports": [
+      "_theme-Bhuk4arA.js",
+      "_SidePanel-CbFyhysd.js",
+      "_hooks.module-CH7s8bBr.js",
+      "_defaultPatterns-Bz2aUK3s.js"
+    ]
+  },
+  "src/tab/index.html": {
+    "file": "assets/tab-toXjmF-n.js",
+    "name": "tab",
+    "src": "src/tab/index.html",
+    "isEntry": true,
+    "imports": [
+      "_theme-Bhuk4arA.js",
+      "_SidePanel-CbFyhysd.js",
+      "_hooks.module-CH7s8bBr.js",
+      "_defaultPatterns-Bz2aUK3s.js"
+    ]
+  },
+  "src/terms/index.html": {
+    "file": "assets/terms-CXI4VuMt.js",
+    "name": "terms",
+    "src": "src/terms/index.html",
+    "isEntry": true,
+    "imports": [
+      "_theme-Bhuk4arA.js"
+    ],
+    "css": [
+      "assets/terms-C3bfftzY.css"
+    ]
+  },
+  "src/welcome/index.html": {
+    "file": "assets/welcome-B9oCk4Uj.js",
+    "name": "welcome",
+    "src": "src/welcome/index.html",
+    "isEntry": true,
+    "imports": [
+      "_theme-Bhuk4arA.js"
+    ],
+    "css": [
+      "assets/welcome-DewH3nCH.css"
+    ]
+  }
+}
