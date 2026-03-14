@@ -1,0 +1,82 @@
+{
+  "name": "LeetBook: AI Study Companion for LeetCode",
+  "version": "0.1.0",
+  "description": "Auto-track submissions, organize by patterns, and get AI-powered notes — your smart LeetCode notebook.",
+  "manifest_version": 3,
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_popup": "src/popup/index.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    },
+    "default_title": "LeetBook"
+  },
+  "side_panel": {
+    "default_path": "src/sidepanel/index.html"
+  },
+  "background": {
+    "service_worker": "service-worker-loader.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "assets/index.ts-F88QIOcL.js"
+      ],
+      "matches": [
+        "https://leetcode.com/problems/*"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "js": [
+        "assets/injected.ts-BeEFYnVy.js"
+      ],
+      "matches": [
+        "https://leetcode.com/problems/*"
+      ],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ],
+  "permissions": [
+    "storage",
+    "identity",
+    "notifications",
+    "sidePanel"
+  ],
+  "host_permissions": [
+    "https://leetcode.com/*",
+    "https://api.groq.com/*"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "https://leetcode.com/*"
+      ],
+      "resources": [
+        "assets/index.ts-F88QIOcL.js",
+        "assets/injected.ts-BeEFYnVy.js"
+      ],
+      "use_dynamic_url": false
+    }
+  ],
+  "oauth2": {
+    "client_id": "261627228233-dbuse7jb514eo6it4vlut18nfjm3c87q.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/userinfo.email",
+      "https://www.googleapis.com/auth/userinfo.profile"
+    ]
+  }
+}

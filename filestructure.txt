@@ -1,0 +1,39 @@
+|-- .vite
+    |-- manifest.json
+|-- assets
+    |-- defaultPatterns-Bz2aUK3s.js
+    |-- hooks.module-CH7s8bBr.js
+    |-- index-D2LI-8HJ.css
+    |-- index.html-BCni-V4v.js
+    |-- index.html-lvoArHnC.js
+    |-- index.ts-BH8FyYjt.js
+    |-- index.ts-F88QIOcL.js
+    |-- injected.ts-BeEFYnVy.js
+    |-- SidePanel-Ca9RFu5H.css
+    |-- SidePanel-CbFyhysd.js
+    |-- tab-toXjmF-n.js
+    |-- terms-C3bfftzY.css
+    |-- terms-CXI4VuMt.js
+    |-- theme-Bhuk4arA.js
+    |-- welcome-B9oCk4Uj.js
+    |-- welcome-DewH3nCH.css
+|-- icons
+    |-- icon-128.png
+    |-- icon-16.png
+    |-- icon-32.png
+    |-- icon-48.png
+|-- manifest.json
+|-- Privacy.md
+|-- README.md
+|-- service-worker-loader.js
+|-- src
+    |-- popup
+        |-- index.html
+    |-- sidepanel
+        |-- index.html
+    |-- tab
+        |-- index.html
+    |-- terms
+        |-- index.html
+    |-- welcome
+        |-- index.html
