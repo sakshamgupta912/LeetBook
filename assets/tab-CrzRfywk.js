@@ -1,0 +1,1 @@
+import{i as o,J as e,u as i}from"./theme-Bhuk4arA.js";import{S as m}from"./SidePanel-D5p4ohc8.js";import"./hooks.module-CH7s8bBr.js";import"./defaultPatterns-Bz2aUK3s.js";o();document.body.classList.add("tab-mode");const t=document.getElementById("app");t&&e(i(m,{isTab:!0}),t);

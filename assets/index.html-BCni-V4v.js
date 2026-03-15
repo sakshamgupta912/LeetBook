@@ -1,1 +1,0 @@
-import{i as t,J as i,u as m}from"./theme-Bhuk4arA.js";import{S as e}from"./SidePanel-CbFyhysd.js";import"./hooks.module-CH7s8bBr.js";import"./defaultPatterns-Bz2aUK3s.js";t();const o=document.getElementById("app");o&&i(m(e,{}),o);
