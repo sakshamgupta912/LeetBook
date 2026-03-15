@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Auto-track submissions, organize by patterns, and get AI-powered notes — your smart LeetCode notebook.",
   "manifest_version": 3,
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkpLynxsnmrxcZvnuqRACb+aDYYL1mkSTAxquxFzG2CYBvvo31v/tUmOUDZ6AiR8Tk/WyaOT29vXpiBW669xEbM71d0mqtCgQRzMEAUFMaI05B73ayVbC90MQ8FXwO9MZHOjVtyOitE8tXp/4kUgWtUl+0OTHYx8U/X2PRsarISgpnJpTZ9kKjxeA9DPJ4ypIdSu6GRr1gqwo5YbASERrhkc8BtqIRsaGmwJwr0kDT+/5J0SvBzZgiii60ptUt+5QQisAQHBVUH/Bjc1WLqLP3eb997mPCZFVN12GV+zU+o4BlaE/CWwX6YhTPZlOeG1veQCW5zQ4LVRsATYFEhr0rwIDAQAB",
   "icons": {
     "16": "icons/icon-16.png",
     "32": "icons/icon-32.png",
