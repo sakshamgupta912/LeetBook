@@ -4,14 +4,14 @@
     |-- defaultPatterns-Bz2aUK3s.js
     |-- hooks.module-CH7s8bBr.js
     |-- index-D2LI-8HJ.css
-    |-- index.html-BCni-V4v.js
+    |-- index.html-JPrAJYsp.js
     |-- index.html-lvoArHnC.js
     |-- index.ts-BH8FyYjt.js
     |-- index.ts-F88QIOcL.js
     |-- injected.ts-BeEFYnVy.js
-    |-- SidePanel-Ca9RFu5H.css
-    |-- SidePanel-CbFyhysd.js
-    |-- tab-toXjmF-n.js
+    |-- SidePanel-D5p4ohc8.js
+    |-- SidePanel-Dp3hsWIc.css
+    |-- tab-CrzRfywk.js
     |-- terms-C3bfftzY.css
     |-- terms-CXI4VuMt.js
     |-- theme-Bhuk4arA.js

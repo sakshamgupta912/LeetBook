@@ -6,11 +6,11 @@
     "isEntry": true
   },
   "_SidePanel-!~{006}~.js": {
-    "file": "assets/SidePanel-Ca9RFu5H.css",
+    "file": "assets/SidePanel-Dp3hsWIc.css",
     "src": "_SidePanel-!~{006}~.js"
   },
-  "_SidePanel-CbFyhysd.js": {
-    "file": "assets/SidePanel-CbFyhysd.js",
+  "_SidePanel-D5p4ohc8.js": {
+    "file": "assets/SidePanel-D5p4ohc8.js",
     "name": "SidePanel",
     "imports": [
       "_theme-Bhuk4arA.js",
@@ -18,7 +18,7 @@
       "_defaultPatterns-Bz2aUK3s.js"
     ],
     "css": [
-      "assets/SidePanel-Ca9RFu5H.css"
+      "assets/SidePanel-Dp3hsWIc.css"
     ]
   },
   "_defaultPatterns-Bz2aUK3s.js": {
@@ -71,25 +71,25 @@
     ]
   },
   "src/sidepanel/index.html": {
-    "file": "assets/index.html-BCni-V4v.js",
+    "file": "assets/index.html-JPrAJYsp.js",
     "name": "index.html",
     "src": "src/sidepanel/index.html",
     "isEntry": true,
     "imports": [
       "_theme-Bhuk4arA.js",
-      "_SidePanel-CbFyhysd.js",
+      "_SidePanel-D5p4ohc8.js",
       "_hooks.module-CH7s8bBr.js",
       "_defaultPatterns-Bz2aUK3s.js"
     ]
   },
   "src/tab/index.html": {
-    "file": "assets/tab-toXjmF-n.js",
+    "file": "assets/tab-CrzRfywk.js",
     "name": "tab",
     "src": "src/tab/index.html",
     "isEntry": true,
     "imports": [
       "_theme-Bhuk4arA.js",
-      "_SidePanel-CbFyhysd.js",
+      "_SidePanel-D5p4ohc8.js",
       "_hooks.module-CH7s8bBr.js",
       "_defaultPatterns-Bz2aUK3s.js"
     ]
