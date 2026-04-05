@@ -1,28 +1,28 @@
 {
   "../../../../@crx/manifest": {
-    "file": "assets/crx-manifest.js-CuH9msC0.js",
+    "file": "assets/crx-manifest.js-CPuO4gjg.js",
     "name": "crx-manifest.js",
     "src": "../../../../@crx/manifest",
     "isEntry": true
   },
   "_SidePanel-!~{006}~.js": {
-    "file": "assets/SidePanel-Dp3hsWIc.css",
+    "file": "assets/SidePanel-DiwgxMe_.css",
     "src": "_SidePanel-!~{006}~.js"
   },
-  "_SidePanel-D5p4ohc8.js": {
-    "file": "assets/SidePanel-D5p4ohc8.js",
+  "_SidePanel-BcI9itOu.js": {
+    "file": "assets/SidePanel-BcI9itOu.js",
     "name": "SidePanel",
     "imports": [
       "_theme-Bhuk4arA.js",
       "_hooks.module-CH7s8bBr.js",
-      "_defaultPatterns-Bz2aUK3s.js"
+      "_defaultPatterns-BplBbZfo.js"
     ],
     "css": [
-      "assets/SidePanel-Dp3hsWIc.css"
+      "assets/SidePanel-DiwgxMe_.css"
     ]
   },
-  "_defaultPatterns-Bz2aUK3s.js": {
-    "file": "assets/defaultPatterns-Bz2aUK3s.js",
+  "_defaultPatterns-BplBbZfo.js": {
+    "file": "assets/defaultPatterns-BplBbZfo.js",
     "name": "defaultPatterns"
   },
   "_hooks.module-CH7s8bBr.js": {
@@ -37,12 +37,12 @@
     "name": "theme"
   },
   "src/background/index.ts": {
-    "file": "assets/index.ts-BH8FyYjt.js",
+    "file": "assets/index.ts-b_R5Uwn_.js",
     "name": "index.ts",
     "src": "src/background/index.ts",
     "isEntry": true,
     "imports": [
-      "_defaultPatterns-Bz2aUK3s.js"
+      "_defaultPatterns-BplBbZfo.js"
     ]
   },
   "src/content/index.ts": {
@@ -71,27 +71,27 @@
     ]
   },
   "src/sidepanel/index.html": {
-    "file": "assets/index.html-JPrAJYsp.js",
+    "file": "assets/index.html-BN_lQ2wi.js",
     "name": "index.html",
     "src": "src/sidepanel/index.html",
     "isEntry": true,
     "imports": [
       "_theme-Bhuk4arA.js",
-      "_SidePanel-D5p4ohc8.js",
+      "_SidePanel-BcI9itOu.js",
       "_hooks.module-CH7s8bBr.js",
-      "_defaultPatterns-Bz2aUK3s.js"
+      "_defaultPatterns-BplBbZfo.js"
     ]
   },
   "src/tab/index.html": {
-    "file": "assets/tab-CrzRfywk.js",
+    "file": "assets/tab-D_SF4mFT.js",
     "name": "tab",
     "src": "src/tab/index.html",
     "isEntry": true,
     "imports": [
       "_theme-Bhuk4arA.js",
-      "_SidePanel-D5p4ohc8.js",
+      "_SidePanel-BcI9itOu.js",
       "_hooks.module-CH7s8bBr.js",
-      "_defaultPatterns-Bz2aUK3s.js"
+      "_defaultPatterns-BplBbZfo.js"
     ]
   },
   "src/terms/index.html": {
