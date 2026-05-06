@@ -30,7 +30,7 @@
   "content_scripts": [
     {
       "js": [
-        "assets/index.ts-F88QIOcL.js"
+        "assets/index.ts-BGHrcD6_.js"
       ],
       "matches": [
         "https://leetcode.com/problems/*"
@@ -39,7 +39,7 @@
     },
     {
       "js": [
-        "assets/injected.ts-BeEFYnVy.js"
+        "assets/injected.ts-CNN9zfuq.js"
       ],
       "matches": [
         "https://leetcode.com/problems/*"
@@ -67,8 +67,8 @@
         "https://leetcode.com/*"
       ],
       "resources": [
-        "assets/index.ts-F88QIOcL.js",
-        "assets/injected.ts-BeEFYnVy.js"
+        "assets/index.ts-BGHrcD6_.js",
+        "assets/injected.ts-CNN9zfuq.js"
       ],
       "use_dynamic_url": false
     }
