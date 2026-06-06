@@ -1,16 +1,16 @@
 {
   "../../../../@crx/manifest": {
-    "file": "assets/crx-manifest.js-udELo_46.js",
+    "file": "assets/crx-manifest.js-Zu4vgdMZ.js",
     "name": "crx-manifest.js",
     "src": "../../../../@crx/manifest",
     "isEntry": true
   },
   "_SidePanel-!~{006}~.js": {
-    "file": "assets/SidePanel-DiwgxMe_.css",
+    "file": "assets/SidePanel-D7fLyqbI.css",
     "src": "_SidePanel-!~{006}~.js"
   },
-  "_SidePanel-CbfYJCll.js": {
-    "file": "assets/SidePanel-CbfYJCll.js",
+  "_SidePanel-3YI-7kTl.js": {
+    "file": "assets/SidePanel-3YI-7kTl.js",
     "name": "SidePanel",
     "imports": [
       "_theme-Bhuk4arA.js",
@@ -18,7 +18,7 @@
       "_defaultPatterns-BplBbZfo.js"
     ],
     "css": [
-      "assets/SidePanel-DiwgxMe_.css"
+      "assets/SidePanel-D7fLyqbI.css"
     ]
   },
   "_defaultPatterns-BplBbZfo.js": {
@@ -36,8 +36,12 @@
     "file": "assets/theme-Bhuk4arA.js",
     "name": "theme"
   },
+  "_version-BW-oDVet.js": {
+    "file": "assets/version-BW-oDVet.js",
+    "name": "version"
+  },
   "src/background/index.ts": {
-    "file": "assets/index.ts-DND-6WY4.js",
+    "file": "assets/index.ts-CPy8OUvj.js",
     "name": "index.ts",
     "src": "src/background/index.ts",
     "isEntry": true,
@@ -46,73 +50,76 @@
     ]
   },
   "src/content/index.ts": {
-    "file": "assets/index.ts-BGHrcD6_.js",
+    "file": "assets/index.ts-B7SXKYa2.js",
     "name": "index.ts",
     "src": "src/content/index.ts",
     "isEntry": true
   },
   "src/content/injected.ts": {
-    "file": "assets/injected.ts-CNN9zfuq.js",
+    "file": "assets/injected.ts-Dg1v93v1.js",
     "name": "injected.ts",
     "src": "src/content/injected.ts",
     "isEntry": true
   },
   "src/popup/index.html": {
-    "file": "assets/index.html-lvoArHnC.js",
+    "file": "assets/index.html-DF5-Ik8a.js",
     "name": "index.html",
     "src": "src/popup/index.html",
     "isEntry": true,
     "imports": [
       "_theme-Bhuk4arA.js",
-      "_hooks.module-CH7s8bBr.js"
+      "_hooks.module-CH7s8bBr.js",
+      "_version-BW-oDVet.js"
     ],
     "css": [
       "assets/index-D2LI-8HJ.css"
     ]
   },
   "src/sidepanel/index.html": {
-    "file": "assets/index.html-Wt_cxeVJ.js",
+    "file": "assets/index.html-hQRYFuUP.js",
     "name": "index.html",
     "src": "src/sidepanel/index.html",
     "isEntry": true,
     "imports": [
       "_theme-Bhuk4arA.js",
-      "_SidePanel-CbfYJCll.js",
+      "_SidePanel-3YI-7kTl.js",
       "_hooks.module-CH7s8bBr.js",
       "_defaultPatterns-BplBbZfo.js"
     ]
   },
   "src/tab/index.html": {
-    "file": "assets/tab-CyDp-TMN.js",
+    "file": "assets/tab-DPB2q1eu.js",
     "name": "tab",
     "src": "src/tab/index.html",
     "isEntry": true,
     "imports": [
       "_theme-Bhuk4arA.js",
-      "_SidePanel-CbfYJCll.js",
+      "_SidePanel-3YI-7kTl.js",
       "_hooks.module-CH7s8bBr.js",
       "_defaultPatterns-BplBbZfo.js"
     ]
   },
   "src/terms/index.html": {
-    "file": "assets/terms-CXI4VuMt.js",
+    "file": "assets/terms-Cjl-CV36.js",
     "name": "terms",
     "src": "src/terms/index.html",
     "isEntry": true,
     "imports": [
-      "_theme-Bhuk4arA.js"
+      "_theme-Bhuk4arA.js",
+      "_version-BW-oDVet.js"
     ],
     "css": [
       "assets/terms-C3bfftzY.css"
     ]
   },
   "src/welcome/index.html": {
-    "file": "assets/welcome-B9oCk4Uj.js",
+    "file": "assets/welcome-IogWzdAS.js",
     "name": "welcome",
     "src": "src/welcome/index.html",
     "isEntry": true,
     "imports": [
-      "_theme-Bhuk4arA.js"
+      "_theme-Bhuk4arA.js",
+      "_version-BW-oDVet.js"
     ],
     "css": [
       "assets/welcome-DewH3nCH.css"
