@@ -1,16 +1,16 @@
 {
   "../../../../@crx/manifest": {
-    "file": "assets/crx-manifest.js-Zu4vgdMZ.js",
+    "file": "assets/crx-manifest.js-DQKPy2bk.js",
     "name": "crx-manifest.js",
     "src": "../../../../@crx/manifest",
     "isEntry": true
   },
   "_SidePanel-!~{006}~.js": {
-    "file": "assets/SidePanel-D7fLyqbI.css",
+    "file": "assets/SidePanel-oZAYuZnk.css",
     "src": "_SidePanel-!~{006}~.js"
   },
-  "_SidePanel-3YI-7kTl.js": {
-    "file": "assets/SidePanel-3YI-7kTl.js",
+  "_SidePanel-CJ7Mwo-4.js": {
+    "file": "assets/SidePanel-CJ7Mwo-4.js",
     "name": "SidePanel",
     "imports": [
       "_theme-Bhuk4arA.js",
@@ -18,7 +18,7 @@
       "_defaultPatterns-BplBbZfo.js"
     ],
     "css": [
-      "assets/SidePanel-D7fLyqbI.css"
+      "assets/SidePanel-oZAYuZnk.css"
     ]
   },
   "_defaultPatterns-BplBbZfo.js": {
@@ -62,7 +62,7 @@
     "isEntry": true
   },
   "src/popup/index.html": {
-    "file": "assets/index.html-DF5-Ik8a.js",
+    "file": "assets/index.html-CXPi54d_.js",
     "name": "index.html",
     "src": "src/popup/index.html",
     "isEntry": true,
@@ -72,35 +72,35 @@
       "_version-BW-oDVet.js"
     ],
     "css": [
-      "assets/index-D2LI-8HJ.css"
+      "assets/index-D57GQzyG.css"
     ]
   },
   "src/sidepanel/index.html": {
-    "file": "assets/index.html-hQRYFuUP.js",
+    "file": "assets/index.html-8oL8wklv.js",
     "name": "index.html",
     "src": "src/sidepanel/index.html",
     "isEntry": true,
     "imports": [
       "_theme-Bhuk4arA.js",
-      "_SidePanel-3YI-7kTl.js",
+      "_SidePanel-CJ7Mwo-4.js",
       "_hooks.module-CH7s8bBr.js",
       "_defaultPatterns-BplBbZfo.js"
     ]
   },
   "src/tab/index.html": {
-    "file": "assets/tab-DPB2q1eu.js",
+    "file": "assets/tab-BD-f5XO6.js",
     "name": "tab",
     "src": "src/tab/index.html",
     "isEntry": true,
     "imports": [
       "_theme-Bhuk4arA.js",
-      "_SidePanel-3YI-7kTl.js",
+      "_SidePanel-CJ7Mwo-4.js",
       "_hooks.module-CH7s8bBr.js",
       "_defaultPatterns-BplBbZfo.js"
     ]
   },
   "src/terms/index.html": {
-    "file": "assets/terms-Cjl-CV36.js",
+    "file": "assets/terms-DTkiVSf2.js",
     "name": "terms",
     "src": "src/terms/index.html",
     "isEntry": true,
@@ -109,11 +109,11 @@
       "_version-BW-oDVet.js"
     ],
     "css": [
-      "assets/terms-C3bfftzY.css"
+      "assets/terms-CN5GV3VL.css"
     ]
   },
   "src/welcome/index.html": {
-    "file": "assets/welcome-IogWzdAS.js",
+    "file": "assets/welcome-DKp2BBsY.js",
     "name": "welcome",
     "src": "src/welcome/index.html",
     "isEntry": true,
@@ -122,7 +122,7 @@
       "_version-BW-oDVet.js"
     ],
     "css": [
-      "assets/welcome-DewH3nCH.css"
+      "assets/welcome-CfXXNp7R.css"
     ]
   }
 }
