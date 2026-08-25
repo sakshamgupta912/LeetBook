@@ -1,6 +1,6 @@
 {
   "../../../../@crx/manifest": {
-    "file": "assets/crx-manifest.js-DQKPy2bk.js",
+    "file": "assets/crx-manifest.js-8dWjIW8g.js",
     "name": "crx-manifest.js",
     "src": "../../../../@crx/manifest",
     "isEntry": true
@@ -9,12 +9,12 @@
     "file": "assets/SidePanel-oZAYuZnk.css",
     "src": "_SidePanel-!~{006}~.js"
   },
-  "_SidePanel-CJ7Mwo-4.js": {
-    "file": "assets/SidePanel-CJ7Mwo-4.js",
+  "_SidePanel-Ol-6S_3m.js": {
+    "file": "assets/SidePanel-Ol-6S_3m.js",
     "name": "SidePanel",
     "imports": [
-      "_theme-Bhuk4arA.js",
-      "_hooks.module-CH7s8bBr.js",
+      "_theme-DAYvaBib.js",
+      "_hooks.module-C2p_ZzxB.js",
       "_defaultPatterns-BplBbZfo.js"
     ],
     "css": [
@@ -25,15 +25,15 @@
     "file": "assets/defaultPatterns-BplBbZfo.js",
     "name": "defaultPatterns"
   },
-  "_hooks.module-CH7s8bBr.js": {
-    "file": "assets/hooks.module-CH7s8bBr.js",
+  "_hooks.module-C2p_ZzxB.js": {
+    "file": "assets/hooks.module-C2p_ZzxB.js",
     "name": "hooks.module",
     "imports": [
-      "_theme-Bhuk4arA.js"
+      "_theme-DAYvaBib.js"
     ]
   },
-  "_theme-Bhuk4arA.js": {
-    "file": "assets/theme-Bhuk4arA.js",
+  "_theme-DAYvaBib.js": {
+    "file": "assets/theme-DAYvaBib.js",
     "name": "theme"
   },
   "_version-BW-oDVet.js": {
@@ -41,7 +41,7 @@
     "name": "version"
   },
   "src/background/index.ts": {
-    "file": "assets/index.ts-CPy8OUvj.js",
+    "file": "assets/index.ts-Bfu1ReCx.js",
     "name": "index.ts",
     "src": "src/background/index.ts",
     "isEntry": true,
@@ -62,50 +62,50 @@
     "isEntry": true
   },
   "src/popup/index.html": {
-    "file": "assets/index.html-CXPi54d_.js",
+    "file": "assets/index.html-sToI3YQE.js",
     "name": "index.html",
     "src": "src/popup/index.html",
     "isEntry": true,
     "imports": [
-      "_theme-Bhuk4arA.js",
-      "_hooks.module-CH7s8bBr.js",
+      "_theme-DAYvaBib.js",
+      "_hooks.module-C2p_ZzxB.js",
       "_version-BW-oDVet.js"
     ],
     "css": [
-      "assets/index-D57GQzyG.css"
+      "assets/index-B9d4i6JZ.css"
     ]
   },
   "src/sidepanel/index.html": {
-    "file": "assets/index.html-8oL8wklv.js",
+    "file": "assets/index.html-ByARAKrj.js",
     "name": "index.html",
     "src": "src/sidepanel/index.html",
     "isEntry": true,
     "imports": [
-      "_theme-Bhuk4arA.js",
-      "_SidePanel-CJ7Mwo-4.js",
-      "_hooks.module-CH7s8bBr.js",
+      "_SidePanel-Ol-6S_3m.js",
+      "_theme-DAYvaBib.js",
+      "_hooks.module-C2p_ZzxB.js",
       "_defaultPatterns-BplBbZfo.js"
     ]
   },
   "src/tab/index.html": {
-    "file": "assets/tab-BD-f5XO6.js",
+    "file": "assets/tab-BRTmAdd8.js",
     "name": "tab",
     "src": "src/tab/index.html",
     "isEntry": true,
     "imports": [
-      "_theme-Bhuk4arA.js",
-      "_SidePanel-CJ7Mwo-4.js",
-      "_hooks.module-CH7s8bBr.js",
+      "_theme-DAYvaBib.js",
+      "_SidePanel-Ol-6S_3m.js",
+      "_hooks.module-C2p_ZzxB.js",
       "_defaultPatterns-BplBbZfo.js"
     ]
   },
   "src/terms/index.html": {
-    "file": "assets/terms-DTkiVSf2.js",
+    "file": "assets/terms-CwW50UaW.js",
     "name": "terms",
     "src": "src/terms/index.html",
     "isEntry": true,
     "imports": [
-      "_theme-Bhuk4arA.js",
+      "_theme-DAYvaBib.js",
       "_version-BW-oDVet.js"
     ],
     "css": [
@@ -113,12 +113,12 @@
     ]
   },
   "src/welcome/index.html": {
-    "file": "assets/welcome-DKp2BBsY.js",
+    "file": "assets/welcome-B1rDdan_.js",
     "name": "welcome",
     "src": "src/welcome/index.html",
     "isEntry": true,
     "imports": [
-      "_theme-Bhuk4arA.js",
+      "_theme-DAYvaBib.js",
       "_version-BW-oDVet.js"
     ],
     "css": [
