@@ -1,0 +1,1 @@
+import{S as t}from"./SidePanel-Ol-6S_3m.js";import{i,J as m,u as e}from"./theme-DAYvaBib.js";import"./hooks.module-C2p_ZzxB.js";import"./defaultPatterns-BplBbZfo.js";i();const o=document.getElementById("app");o&&m(e(t,{}),o);

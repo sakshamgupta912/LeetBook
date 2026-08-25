@@ -14,7 +14,7 @@ LeetBook is a browser extension that automatically tracks your LeetCode submissi
 
 **Data collected:** Your Google profile (name, email, photo) for authentication; problem metadata, submission code, and AI-generated notes stored in Firebase Firestore under your user account.
 
-**API keys:** Third-party API keys (e.g., Groq) are stored exclusively in your browser's local storage and are never transmitted to our servers.
+**API keys:** Third-party API keys (e.g., Groq, Google Gemini) are stored exclusively in your browser's local storage and are never transmitted to our servers.
 
 **No selling of data:** We do not sell, rent, or share your personal data with third parties for marketing purposes.
 
@@ -22,7 +22,7 @@ LeetBook is a browser extension that automatically tracks your LeetCode submissi
 
 ## 4. Third-Party Services
 
-The Extension integrates with Google Authentication, Firebase, and optional AI providers (Groq). Your use of these services is subject to their respective terms and privacy policies.
+The Extension integrates with Google Authentication, Firebase, and optional AI providers (Groq, Google Gemini). Your use of these services is subject to their respective terms and privacy policies.
 
 ## 5. AI-Generated Content
 
@@ -57,4 +57,4 @@ We reserve the right to update these terms at any time. Continued use of the Ext
 
 For questions or concerns regarding these terms or your data, please reach out via the Extension's support channel.
 
-LeetBook · v0.3.1
+LeetBook · v0.3.2
