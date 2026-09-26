@@ -10,7 +10,7 @@ LeetBook automatically captures every accepted submission and builds a personal 
 
 [![Chrome Extension](https://img.shields.io/badge/Platform-Chrome%20%7C%20Edge-blue?logo=googlechrome&logoColor=white)](#installation)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-green)](#)
-[![Version](https://img.shields.io/badge/Version-v0.3.2-blueviolet)](#)
+[![Version](https://img.shields.io/badge/Version-v0.3.3-blueviolet)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 </div>
@@ -94,6 +94,6 @@ Install & Sign In ──▶ Solve on LeetCode ──▶ Review in Side Panel
 
 **LeetBook — Solve smarter, not harder.** 🚀
 
-`v0.3.2`
+`v0.3.3`
 
 </div>
