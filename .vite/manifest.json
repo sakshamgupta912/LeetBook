@@ -1,28 +1,28 @@
 {
   "../../../../@crx/manifest": {
-    "file": "assets/crx-manifest.js-8dWjIW8g.js",
+    "file": "assets/crx-manifest.js-DO8q1RHd.js",
     "name": "crx-manifest.js",
     "src": "../../../../@crx/manifest",
     "isEntry": true
   },
   "_SidePanel-!~{006}~.js": {
-    "file": "assets/SidePanel-oZAYuZnk.css",
+    "file": "assets/SidePanel-B4DebnFu.css",
     "src": "_SidePanel-!~{006}~.js"
   },
-  "_SidePanel-Ol-6S_3m.js": {
-    "file": "assets/SidePanel-Ol-6S_3m.js",
+  "_SidePanel-C9qnXgr6.js": {
+    "file": "assets/SidePanel-C9qnXgr6.js",
     "name": "SidePanel",
     "imports": [
       "_theme-DAYvaBib.js",
       "_hooks.module-C2p_ZzxB.js",
-      "_defaultPatterns-BplBbZfo.js"
+      "_defaultPatterns-Dzj6F7CP.js"
     ],
     "css": [
-      "assets/SidePanel-oZAYuZnk.css"
+      "assets/SidePanel-B4DebnFu.css"
     ]
   },
-  "_defaultPatterns-BplBbZfo.js": {
-    "file": "assets/defaultPatterns-BplBbZfo.js",
+  "_defaultPatterns-Dzj6F7CP.js": {
+    "file": "assets/defaultPatterns-Dzj6F7CP.js",
     "name": "defaultPatterns"
   },
   "_hooks.module-C2p_ZzxB.js": {
@@ -41,12 +41,12 @@
     "name": "version"
   },
   "src/background/index.ts": {
-    "file": "assets/index.ts-Bfu1ReCx.js",
+    "file": "assets/index.ts-iTCNnixZ.js",
     "name": "index.ts",
     "src": "src/background/index.ts",
     "isEntry": true,
     "imports": [
-      "_defaultPatterns-BplBbZfo.js"
+      "_defaultPatterns-Dzj6F7CP.js"
     ]
   },
   "src/content/index.ts": {
@@ -62,7 +62,7 @@
     "isEntry": true
   },
   "src/popup/index.html": {
-    "file": "assets/index.html-sToI3YQE.js",
+    "file": "assets/index.html-DiB3SR3X.js",
     "name": "index.html",
     "src": "src/popup/index.html",
     "isEntry": true,
@@ -72,31 +72,31 @@
       "_version-BW-oDVet.js"
     ],
     "css": [
-      "assets/index-B9d4i6JZ.css"
+      "assets/index-CSDIkDIg.css"
     ]
   },
   "src/sidepanel/index.html": {
-    "file": "assets/index.html-ByARAKrj.js",
+    "file": "assets/index.html-zefV_4H9.js",
     "name": "index.html",
     "src": "src/sidepanel/index.html",
     "isEntry": true,
     "imports": [
-      "_SidePanel-Ol-6S_3m.js",
+      "_SidePanel-C9qnXgr6.js",
       "_theme-DAYvaBib.js",
       "_hooks.module-C2p_ZzxB.js",
-      "_defaultPatterns-BplBbZfo.js"
+      "_defaultPatterns-Dzj6F7CP.js"
     ]
   },
   "src/tab/index.html": {
-    "file": "assets/tab-BRTmAdd8.js",
+    "file": "assets/tab-C5K1d_fr.js",
     "name": "tab",
     "src": "src/tab/index.html",
     "isEntry": true,
     "imports": [
       "_theme-DAYvaBib.js",
-      "_SidePanel-Ol-6S_3m.js",
+      "_SidePanel-C9qnXgr6.js",
       "_hooks.module-C2p_ZzxB.js",
-      "_defaultPatterns-BplBbZfo.js"
+      "_defaultPatterns-Dzj6F7CP.js"
     ]
   },
   "src/terms/index.html": {
