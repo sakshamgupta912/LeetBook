@@ -1,0 +1,4 @@
+# Keep CI config and repo metadata out of the release zip that
+# `git archive` produces in .github/workflows/release.yml.
+/.github        export-ignore
+/.gitattributes export-ignore
