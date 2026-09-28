@@ -1,16 +1,16 @@
 {
   "../../../../@crx/manifest": {
-    "file": "assets/crx-manifest.js-DO8q1RHd.js",
+    "file": "assets/crx-manifest.js-BFQUU-sc.js",
     "name": "crx-manifest.js",
     "src": "../../../../@crx/manifest",
     "isEntry": true
   },
   "_SidePanel-!~{006}~.js": {
-    "file": "assets/SidePanel-B4DebnFu.css",
+    "file": "assets/SidePanel-afTtSKJ8.css",
     "src": "_SidePanel-!~{006}~.js"
   },
-  "_SidePanel-C9qnXgr6.js": {
-    "file": "assets/SidePanel-C9qnXgr6.js",
+  "_SidePanel-DDDSLNcZ.js": {
+    "file": "assets/SidePanel-DDDSLNcZ.js",
     "name": "SidePanel",
     "imports": [
       "_theme-DAYvaBib.js",
@@ -18,7 +18,7 @@
       "_defaultPatterns-Dzj6F7CP.js"
     ],
     "css": [
-      "assets/SidePanel-B4DebnFu.css"
+      "assets/SidePanel-afTtSKJ8.css"
     ]
   },
   "_defaultPatterns-Dzj6F7CP.js": {
@@ -76,25 +76,25 @@
     ]
   },
   "src/sidepanel/index.html": {
-    "file": "assets/index.html-zefV_4H9.js",
+    "file": "assets/index.html-B2jmNqni.js",
     "name": "index.html",
     "src": "src/sidepanel/index.html",
     "isEntry": true,
     "imports": [
-      "_SidePanel-C9qnXgr6.js",
+      "_SidePanel-DDDSLNcZ.js",
       "_theme-DAYvaBib.js",
       "_hooks.module-C2p_ZzxB.js",
       "_defaultPatterns-Dzj6F7CP.js"
     ]
   },
   "src/tab/index.html": {
-    "file": "assets/tab-C5K1d_fr.js",
+    "file": "assets/tab-DiTOrNvg.js",
     "name": "tab",
     "src": "src/tab/index.html",
     "isEntry": true,
     "imports": [
       "_theme-DAYvaBib.js",
-      "_SidePanel-C9qnXgr6.js",
+      "_SidePanel-DDDSLNcZ.js",
       "_hooks.module-C2p_ZzxB.js",
       "_defaultPatterns-Dzj6F7CP.js"
     ]

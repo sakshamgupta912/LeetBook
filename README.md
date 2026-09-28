@@ -10,7 +10,7 @@ LeetBook automatically captures every accepted submission and builds a personal 
 
 [![Chrome Extension](https://img.shields.io/badge/Platform-Chrome%20%7C%20Edge-blue?logo=googlechrome&logoColor=white)](#installation)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-green)](#)
-[![Version](https://img.shields.io/badge/Version-v0.3.3-blueviolet)](#)
+[![Version](https://img.shields.io/badge/Version-v0.4.0-blueviolet)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 </div>
@@ -30,6 +30,9 @@ Get instant AI analysis on every submission:
 - Markdown-formatted notes you can review anytime
 
 > Powered by **Groq** or **Google Gemini** — bring your own API key, stored locally and never sent to our servers. Responses use each provider's strict JSON schema mode for reliable, structured notes.
+
+### 📝 Rich Text Manual Notes
+Write your own notes in a **WYSIWYG editor** — no markdown syntax to learn, no preview tab. Copy from LeetCode (or anywhere) and paste: headings, bold, lists, tables, links, and code blocks arrive already formatted, exactly as you copied them. Markdown shortcuts still work while typing (`## `, `- `, `1. `, `> `, ` ``` `), pasted code snippets land in a code block, and notes written before rich text keep rendering exactly as they were typed.
 
 ### 🏷️ Pattern Recognition
 Organize problems by **50+ algorithm patterns** — Two Pointers, Sliding Window, Dynamic Programming, BFS/DFS, and more. See which patterns you've mastered and where you need practice.
@@ -94,6 +97,6 @@ Install & Sign In ──▶ Solve on LeetCode ──▶ Review in Side Panel
 
 **LeetBook — Solve smarter, not harder.** 🚀
 
-`v0.3.3`
+`v0.4.0`
 
 </div>
