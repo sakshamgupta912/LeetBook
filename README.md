@@ -63,13 +63,28 @@ Beautiful Google Material design with full dark mode support.
 
 ## 🛠️ Installation
 
-1. **Download** or clone this repository to your local machine
-2. Open **Google Chrome / Edge** and navigate to `chrome://extensions/`
-3. Enable **Developer mode** using the toggle in the top-right corner
-4. Click **Load unpacked**
-5. Select the `dist` folder from the downloaded repository
+### Recommended — download a release
+
+1. Go to the [**latest release**](https://github.com/sakshamgupta912/LeetBook/releases/latest) and download `leetbook-v<version>.zip`
+2. **Unzip** it — you'll get a `leetbook` folder
+3. Open **Google Chrome / Edge** and navigate to `chrome://extensions/`
+4. Enable **Developer mode** using the toggle in the top-right corner
+5. Click **Load unpacked** and select the unzipped `leetbook` folder
 6. The LeetBook icon will appear in your browser toolbar
 7. **Pin** the extension by clicking the puzzle-piece icon and pinning LeetBook
+
+> Keep the unzipped folder where it is — deleting it uninstalls the extension.
+
+### Alternative — clone this repository
+
+This repository *is* the unpacked extension, so you can also clone it and point
+**Load unpacked** at the repository folder itself.
+
+```bash
+git clone https://github.com/sakshamgupta912/LeetBook.git
+```
+
+To update later, run `git pull` and hit **Reload** on the extensions page.
 
 ---
 

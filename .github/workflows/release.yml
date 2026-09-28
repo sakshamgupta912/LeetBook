@@ -1,0 +1,153 @@
+name: Release
+
+# Publishes a ready-to-install zip of the extension so users can grab a single
+# file from the Releases page instead of cloning the repository.
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release tag, e.g. v0.3.3. Defaults to v<manifest version>.'
+        required: false
+        type: string
+      prerelease:
+        description: 'Mark this release as a pre-release'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    name: Package and publish
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out extension
+        uses: actions/checkout@v4
+
+      - name: Resolve version and tag
+        id: meta
+        run: |
+          set -euo pipefail
+
+          version="$(jq -r '.version // empty' manifest.json)"
+          if [ -z "$version" ]; then
+            echo "::error file=manifest.json::manifest.json has no version field"
+            exit 1
+          fi
+
+          if [ "${{ github.event_name }}" = "push" ]; then
+            tag="${GITHUB_REF_NAME}"
+          else
+            tag="${{ inputs.tag }}"
+            [ -n "$tag" ] || tag="v${version}"
+          fi
+
+          # A mismatch here means users would install a build whose version
+          # differs from the release they downloaded, so fail loudly instead.
+          if [ "$tag" != "v${version}" ]; then
+            echo "::error file=manifest.json::Tag '${tag}' does not match manifest version '${version}' (expected 'v${version}'). Bump manifest.json or retag."
+            exit 1
+          fi
+
+          {
+            echo "version=${version}"
+            echo "tag=${tag}"
+            echo "zip=leetbook-${tag}.zip"
+          } >> "$GITHUB_OUTPUT"
+
+          echo "Releasing ${tag} (manifest version ${version})"
+
+      - name: Verify extension payload
+        run: |
+          set -euo pipefail
+
+          jq empty manifest.json
+
+          # Chrome refuses to load an unpacked extension that is missing any of
+          # these, so catch it here rather than in the user's browser.
+          for path in manifest.json service-worker-loader.js assets icons src .vite; do
+            if [ ! -e "$path" ]; then
+              echo "::error::Required path '${path}' is missing from the repository"
+              exit 1
+            fi
+          done
+
+          manifest_version="$(jq -r '.manifest_version' manifest.json)"
+          if [ "$manifest_version" != "3" ]; then
+            echo "::error file=manifest.json::Expected manifest_version 3, found '${manifest_version}'"
+            exit 1
+          fi
+
+      - name: Package extension
+        run: |
+          set -euo pipefail
+
+          # git archive ships exactly the tracked files and honours the
+          # export-ignore rules in .gitattributes. The leetbook/ prefix means
+          # unzipping produces one tidy folder to point "Load unpacked" at.
+          git archive --format=zip --prefix=leetbook/ -o "${{ steps.meta.outputs.zip }}" HEAD
+
+          {
+            echo "### Package contents"
+            echo '```'
+            unzip -l "${{ steps.meta.outputs.zip }}"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Write release notes
+        run: |
+          set -euo pipefail
+          cat > RELEASE_NOTES.md <<EOF
+          ## Install
+
+          1. Download **\`${{ steps.meta.outputs.zip }}\`** from the assets below.
+          2. Unzip it — you'll get a \`leetbook\` folder.
+          3. Open \`chrome://extensions/\` in Chrome or Edge.
+          4. Turn on **Developer mode** (top-right toggle).
+          5. Click **Load unpacked** and select the unzipped \`leetbook\` folder.
+          6. Pin LeetBook from the puzzle-piece menu, then sign in with Google.
+
+          > Keep the unzipped folder where it is — deleting it uninstalls the extension.
+
+          **Version:** \`${{ steps.meta.outputs.version }}\`
+          EOF
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          tag="${{ steps.meta.outputs.tag }}"
+          zip="${{ steps.meta.outputs.zip }}"
+
+          prerelease_flag=""
+          if [ "${{ inputs.prerelease }}" = "true" ]; then
+            prerelease_flag="--prerelease"
+          fi
+
+          # Re-running the workflow for an existing tag refreshes the asset
+          # instead of failing the job.
+          if gh release view "$tag" >/dev/null 2>&1; then
+            echo "Release $tag already exists — updating it."
+            gh release upload "$tag" "$zip" --clobber
+            gh release edit "$tag" --notes-file RELEASE_NOTES.md $prerelease_flag
+          else
+            gh release create "$tag" "$zip" \
+              --title "LeetBook $tag" \
+              --notes-file RELEASE_NOTES.md \
+              --generate-notes \
+              $prerelease_flag
+          fi
+
+          echo "Published: $(gh release view "$tag" --json url --jq .url)" >> "$GITHUB_STEP_SUMMARY"
