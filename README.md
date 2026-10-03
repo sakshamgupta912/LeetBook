@@ -10,7 +10,7 @@ LeetBook automatically captures every accepted submission and builds a personal 
 
 [![Chrome Extension](https://img.shields.io/badge/Platform-Chrome%20%7C%20Edge-blue?logo=googlechrome&logoColor=white)](#installation)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-green)](#)
-[![Version](https://img.shields.io/badge/Version-v0.4.0-blueviolet)](#)
+[![Version](https://img.shields.io/badge/Version-v0.4.1-blueviolet)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 </div>
@@ -39,7 +39,7 @@ Organize problems by **50+ algorithm patterns** — Two Pointers, Sliding Window
 
 ### 🔍 Advanced Search
 Query your problem library like a pro:
-- Filter by difficulty, pattern, topic, tags
+- Filter by difficulty, pattern, topic, tags — pick a suggested value or type your own
 - AND/OR logic with operators like `in`, `not in`, `contains`, `is empty`
 - Save and reload your favorite queries
 
@@ -63,28 +63,13 @@ Beautiful Google Material design with full dark mode support.
 
 ## 🛠️ Installation
 
-### Recommended — download a release
-
-1. Go to the [**latest release**](https://github.com/sakshamgupta912/LeetBook/releases/latest) and download `leetbook-v<version>.zip`
-2. **Unzip** it — you'll get a `leetbook` folder
-3. Open **Google Chrome / Edge** and navigate to `chrome://extensions/`
-4. Enable **Developer mode** using the toggle in the top-right corner
-5. Click **Load unpacked** and select the unzipped `leetbook` folder
+1. **Download** or clone this repository to your local machine
+2. Open **Google Chrome / Edge** and navigate to `chrome://extensions/`
+3. Enable **Developer mode** using the toggle in the top-right corner
+4. Click **Load unpacked**
+5. Select the `dist` folder from the downloaded repository
 6. The LeetBook icon will appear in your browser toolbar
 7. **Pin** the extension by clicking the puzzle-piece icon and pinning LeetBook
-
-> Keep the unzipped folder where it is — deleting it uninstalls the extension.
-
-### Alternative — clone this repository
-
-This repository *is* the unpacked extension, so you can also clone it and point
-**Load unpacked** at the repository folder itself.
-
-```bash
-git clone https://github.com/sakshamgupta912/LeetBook.git
-```
-
-To update later, run `git pull` and hit **Reload** on the extensions page.
 
 ---
 
@@ -112,6 +97,6 @@ Install & Sign In ──▶ Solve on LeetCode ──▶ Review in Side Panel
 
 **LeetBook — Solve smarter, not harder.** 🚀
 
-`v0.4.0`
+`v0.4.1`
 
 </div>
