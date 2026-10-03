@@ -1,0 +1,1 @@
+import{i as o,J as e,u as i}from"./theme-DAYvaBib.js";import{S as m}from"./SidePanel-BCzG9Gvq.js";import"./Select-C-OKJyHh.js";import"./defaultPatterns-Dzj6F7CP.js";o();document.body.classList.add("tab-mode");const t=document.getElementById("app");t&&e(i(m,{isTab:!0}),t);
