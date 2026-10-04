@@ -1,6 +1,6 @@
 # Terms & Conditions
 
-Last updated: March 15, 2026
+Last updated: October 4, 2026
 
 ## 1. Acceptance of Terms
 
@@ -16,9 +16,13 @@ LeetBook is a browser extension that automatically tracks your LeetCode submissi
 
 **API keys:** Third-party API keys (e.g., Groq, Google Gemini) are stored exclusively in your browser's local storage and are never transmitted to our servers.
 
+**Local preferences:** Display preferences, such as your theme and sort order, are stored in your browser's local storage on your device.
+
+**Exports:** CSV exports are generated in your browser and saved directly to your device. They are not uploaded anywhere.
+
 **No selling of data:** We do not sell, rent, or share your personal data with third parties for marketing purposes.
 
-**Data deletion:** You may delete your data at any time by removing your account from the Extension or contacting us.
+**Data deletion:** You may delete individual submissions or entire problems at any time from the side panel, or delete all of your data by removing your account from the Extension or contacting us.
 
 ## 4. Third-Party Services
 
@@ -57,4 +61,4 @@ We reserve the right to update these terms at any time. Continued use of the Ext
 
 For questions or concerns regarding these terms or your data, please reach out via the Extension's support channel.
 
-LeetBook · v0.4.1
+LeetBook · v0.5.0
