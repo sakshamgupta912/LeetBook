@@ -61,4 +61,4 @@ We reserve the right to update these terms at any time. Continued use of the Ext
 
 For questions or concerns regarding these terms or your data, please reach out via the Extension's support channel.
 
-LeetBook · v0.5.0
+LeetBook · v0.6.0

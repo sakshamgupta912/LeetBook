@@ -15,7 +15,7 @@ LeetBook automatically captures every accepted submission and builds a personal 
 [![Rating](https://img.shields.io/chrome-web-store/rating/blfbbkeopmmnidjkadlljhjljneimipd)](https://chromewebstore.google.com/detail/leetbook-ai-study-compani/blfbbkeopmmnidjkadlljhjljneimipd/reviews)
 [![Chrome Extension](https://img.shields.io/badge/Platform-Chrome%20%7C%20Edge-blue?logo=googlechrome&logoColor=white)](#installation)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-green)](#)
-[![Version](https://img.shields.io/badge/Version-v0.5.0-blueviolet)](#)
+[![Version](https://img.shields.io/badge/Version-v0.6.0-blueviolet)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 </div>
@@ -49,6 +49,13 @@ Query your problem library like a pro:
 - Filter by difficulty, pattern, topic, tags — pick a suggested value or type your own
 - AND/OR logic with operators like `in`, `not in`, `contains`, `is empty`
 - Save and reload your favorite queries
+
+### Live Queries in Notebooks
+Type **`/query`** on any Notebook page to embed a saved Advanced Search query. Search your saved views, preview the matching problems, then choose **Embed query**. Results use the saved filters and sort order and update automatically as your library or saved query changes.
+
+Click a result to open its problem in LeetBook, or Ctrl/Cmd-click to open it externally. Larger lists scroll vertically inside the block, with table headers staying visible. Use **Change query** to switch views, or **Remove** to delete only the embed (not the saved query or problems). If a saved query is deleted, the block stays on the page so you can reconnect it.
+
+Each block has the same **Sort by** dropdown and direction toggle as the Problems tab. Your choice is remembered for that block without changing the saved query or other embeds. Choose **Use query sort** to follow the saved query's ordering again.
 
 ### ↕️ Sort Your Way
 Sort by **last accepted**, **last modified**, **date created**, **title**, or **difficulty**, in either direction. LeetBook remembers your choice — close the panel or restart the browser and your list comes back in the same order.
@@ -120,6 +127,6 @@ Install & Sign In ──▶ Solve on LeetCode ──▶ Review in Side Panel
 
 **LeetBook — Solve smarter, not harder.** 🚀
 
-`v0.5.0`
+`v0.6.0`
 
 </div>
