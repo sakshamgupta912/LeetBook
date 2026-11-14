@@ -15,7 +15,7 @@ LeetBook automatically captures every accepted submission and builds a personal 
 [![Rating](https://img.shields.io/chrome-web-store/rating/blfbbkeopmmnidjkadlljhjljneimipd)](https://chromewebstore.google.com/detail/leetbook-ai-study-compani/blfbbkeopmmnidjkadlljhjljneimipd/reviews)
 [![Chrome Extension](https://img.shields.io/badge/Platform-Chrome%20%7C%20Edge-blue?logo=googlechrome&logoColor=white)](#installation)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-green)](#)
-[![Version](https://img.shields.io/badge/Version-v0.6.0-blueviolet)](#)
+[![Version](https://img.shields.io/badge/Version-v0.6.1-blueviolet)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 </div>
@@ -127,6 +127,6 @@ Install & Sign In ──▶ Solve on LeetCode ──▶ Review in Side Panel
 
 **LeetBook — Solve smarter, not harder.** 🚀
 
-`v0.6.0`
+`v0.6.1`
 
 </div>
